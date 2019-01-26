@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = ({ data, user, updateData }) => (
+const Gods = ({ data, user, updateData }) => (
   <div
     style={{
       height: "100%",
@@ -9,13 +9,8 @@ const Home = ({ data, user, updateData }) => (
       backgroundSize: "cover"
     }}
   >
-    <button onClick={() => updateData({ other: "data" })}>
-      Update Other Data
-    </button>
-    <div>
-      <pre>{JSON.stringify({ data, user, updateData }, null, 2)}</pre>
-    </div>
+    <h1>Hermes</h1>
   </div>
 );
 
-export default Home;
+export default Gods;
