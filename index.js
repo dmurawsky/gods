@@ -1,7 +1,14 @@
 import React from "react";
 
 const Home = ({ data, user, updateData }) => (
-  <div>
+  <div
+    style={{
+      height: "100%",
+      backgroundImage: 'url("http://static.azotheos.com/hermes_bg_med.jpg")',
+      backgroundPosition: "bottom right",
+      backgroundSize: "cover"
+    }}
+  >
     <button onClick={() => updateData({ other: "data" })}>
       Update Other Data
     </button>
