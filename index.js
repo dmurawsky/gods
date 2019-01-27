@@ -4,6 +4,7 @@ const Gods = ({ data, user, updateData }) => (
   <div
     style={{
       height: "100%",
+      backgroundColor: "#0078c4",
       backgroundImage: 'url("http://static.azotheos.com/hermes_bg_med.jpg")',
       backgroundPosition: "bottom right",
       backgroundSize: "cover"
